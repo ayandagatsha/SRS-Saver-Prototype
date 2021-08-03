@@ -3,7 +3,7 @@
 
   btn1.addEventListener('click', ()=>{
   
-      window.location.href = '/newproj.html';
+      window.location.href = 'newproj.html';
     
     })
 
