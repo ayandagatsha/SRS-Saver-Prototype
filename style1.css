@@ -1,0 +1,137 @@
+
+  *, *:before, *:after {
+    box-sizing: border-box;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+
+  }
+
+
+.my-phone-resolution{
+    border: 3px solid black;
+    width: 355px;
+    height: 100%;
+    border-style: solid solid none solid;
+
+  
+  
+}
+
+h1, footer{
+  margin: 0;
+  padding: 2%;
+  background-color: #CEF9F6;
+}
+
+h1{
+  background-image: url("headerbg.gif");
+  background-position: center;
+  background-size: cover;
+
+}
+
+footer{
+  background-image: url("footerbg.gif");
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0.01cm .19cm 1.7em;
+  position: relative;
+  bottom: 0;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10%;
+  box-shadow: 0.01cm 0.3cm 1.7em;
+  
+}
+
+img{
+  width: 80px;
+  border-radius: 100%;
+  box-shadow: 0.01cm 0.3cm 1.7em;
+
+  
+}
+
+div{
+  margin: 5%;
+  
+
+}
+
+.hov {
+  width: 120px;
+  box-shadow: 0cm 0cm 0em;
+
+}
+
+.hov img:hover{
+  width: 120px;
+  box-shadow: 0cm 0cm 0em;
+  text-align: center;
+}
+
+.hov img:active{
+  width: 60px;
+  box-shadow: 0cm 0cm 0em;
+}
+
+
+.imgforspecificproj{
+  border-radius: 10%;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+
+  img{
+    width: 150px;
+    
+    border-radius: 100%;
+    box-shadow: 0.01cm 0.3cm 1.7em;
+    margin: 5%;
+    
+  }
+
+  .hov img:hover{
+    width: 180px;
+    box-shadow: 0cm 0cm 0em;
+  }
+
+  .hov img:active{
+    width: 140px;
+    box-shadow: 0cm 0cm 0em;
+  }
+  
+
+}
+
+
+@media only screen and (min-width: 600px) {
+
+  img{
+    width: 250px;
+    
+    border-radius: 100%;
+    box-shadow: 0.01cm 0.3cm 1.7em;
+    margin: 5%;
+    
+  }
+
+  .hov img:hover{
+    width: 280px;
+    box-shadow: 0cm 0cm 0em;
+  }
+
+  .hov img:active{
+    width: 240px;
+    box-shadow: 0cm 0cm 0em;
+  }
+  
+
+}
