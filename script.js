@@ -2,7 +2,7 @@ const btn = document.getElementById('log-btn');
 
 btn.addEventListener('click', ()=>{
 
-   location.href = 'dashhboard.html';
+   location.href = 'dashboard.html';
   
   })
 
